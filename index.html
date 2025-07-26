@@ -1,37 +1,133 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Biser Shop Ukraine</title>
-  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+  <!-- Фон -->
   <div class="background-gradient"></div>
 
+  <!-- Хедер -->
   <header>
-    <h1>@biser_shop.ukraine_</h1>
+    <h1>biser_shop.ukraine_</h1>
     <p class="tagline">
-      Відправка по всій країні<br>
-      Авторські прикраси з бісеру,<br>
-      Створені з любов'ю та увагою до деталей 💖
+      💚 Авторські прикраси ручної роботи від <strong>Крістіни</strong><br>
+      🌿 Сережки · Силянки · Гердани · Кольє · Браслети · Картини · Брелки<br>
+      📦 Відправка по всіх країнах з любов’ю 💖
     </p>
     <div class="buttons">
-      <a href="https://www.instagram.com/biser_shop.ukraine_" target="_blank">Instagram магазину</a>
+      <a href="https://www.instagram.com/biser_shop.ukraine_" target="_blank">Instagram</a>
     </div>
   </header>
 
-  <section class="gallery">
+  <!-- Галерея з вкладками -->
+  <section class="gallery-section">
     <h2>Мої роботи</h2>
-    <div class="grid">
-      <img src="Фото 1.jpg" alt="Фото 1">
-      <img src="Фото 2.jpg" alt="Фото 2">
-      <img src="Фото 3.jpg" alt="Фото 3">
+
+    <div class="tabs">
+      <button class="tab-button active" data-tab="tab1">Сережки</button>
+      <button class="tab-button" data-tab="tab2">Силянки</button>
+      <button class="tab-button" data-tab="tab3">Гердани</button>
+      <button class="tab-button" data-tab="tab4">Кольє</button>
+      <button class="tab-button" data-tab="tab5">Браслети</button>
+      <button class="tab-button" data-tab="tab6">Картини</button>
+      <button class="tab-button" data-tab="tab7">Брелки</button>
+    </div>
+
+    <div class="tab-content active" id="tab1">
+      <img src="Сережка 1.jpg" alt="Фото 1">
+      <img src="Сережка 2.jpg" alt="Фото 2">
+      <img src="Сережка 3.jpg" alt="Фото 2">
+      <img src="Сережка 4.jpg" alt="Фото 2">
+      <img src="Сережка 5.jpg" alt="Фото 2">
+      <img src="Сережка 6.jpg" alt="Фото 2">
+      <img src="Сережка 7.jpg" alt="Фото 2">
+      <img src="Сережка 8.jpg" alt="Фото 2">
+      <img src="Сережка 9.jpg" alt="Фото 2">
+      <img src="Сережка 10.jpg" alt="Фото 2">
+      <img src="Сережка 11.jpg" alt="Фото 2">
+      <img src="Сережка 12.jpg" alt="Фото 2">
+    </div>
+
+    <div class="tab-content" id="tab2">
+      <img src="Силянка 1.jpg" alt="Фото 3">
+      <img src="Силянка 2.jpg" alt="Фото 4">
+      <img src="Силянка 3.jpg" alt="Фото 4">
+    </div>
+
+    <div class="tab-content" id="tab3">
+      <img src="Гердан 2.jpg" alt="Фото 5">
+      <img src="Гердан 3.jpg" alt="Фото 5">
+      <img src="Гердан 4.jpg" alt="Фото 5">
+    </div>
+
+    <div class="tab-content" id="tab4">
+      <img src="Кольє 1.jpg" alt="Фото 1">
+      <img src="Кольє 2.jpg" alt="Фото 2">
+      <img src="Кольє 3.jpg" alt="Фото 2">
+      <img src="Кольє 4.jpg" alt="Фото 2">
+      <img src="Кольє 5.jpg" alt="Фото 2">
+      <img src="Кольє 6.jpg" alt="Фото 2">
+      <img src="Кольє 7.jpg" alt="Фото 2">
+      <img src="Кольє 8.jpg" alt="Фото 2">
+    </div>
+
+    <div class="tab-content" id="tab5">
+      <img src="Браслет 1.jpg" alt="Фото 3">
+      <img src="Браслет 2.jpg" alt="Фото 3">
+      <img src="Браслет 3.jpg" alt="Фото 3">
+      <img src="Браслет 4.jpg" alt="Фото 3">
+      <img src="Браслет 5.jpg" alt="Фото 3">
+      <img src="Браслет 6.jpg" alt="Фото 3">
+      <img src="Браслет 7.jpg" alt="Фото 3">
+      <img src="Браслет 8.jpg" alt="Фото 3">
+      <img src="Браслет 9.jpg" alt="Фото 3">
+    </div>
+    <div class="tab-content" id="tab6">
+      <img src="Картина 1.jpg" alt="Фото 5">
+      <img src="Картина 2.jpg" alt="Фото 5">
+      <img src="Картина 3.jpg" alt="Фото 5">
+      <img src="Картина 4.jpg" alt="Фото 5">
+    </div>
+    <div class="tab-content" id="tab7">
+      <img src="Брелок 1.jpg" alt="Фото 5">
+      <img src="Брелок 2.jpg" alt="Фото 5">
+      <img src="Брелок 3.jpg" alt="Фото 5">
+      <img src="Брелок 4.jpg" alt="Фото 5">
+      <img src="Брелок 5.jpg" alt="Фото 5">
     </div>
   </section>
 
+  <!-- Контакти -->
+  <section class="contact">
+    <h2>Зв’язок</h2>
+    <p>📱 <strong>Крістіна</strong>: <a href="tel:+380 96 196 9707">+380 96 196 9707</a></p>
+    <p>📸 <a href="https://www.instagram.com/biser_shop.ukraine_" target="_blank">@biser_shop.ukraine_</a></p>
+  </section>
+
+  <!-- Футер -->
   <footer>
-    <p>© 2025 biser_shop.ukraine_ | Створено з любов'ю 💎</p>
+    &copy; 2025 Biser Shop Ukraine — З любов’ю та натхненням 💖
   </footer>
+
+
+  <!-- Скрипт вкладок -->
+  <script>
+    const tabs = document.querySelectorAll('.tab-button');
+    const contents = document.querySelectorAll('.tab-content');
+    tabs.forEach(btn => {
+      btn.addEventListener('click', () => {
+        tabs.forEach(b=>b.classList.remove('active'));
+        contents.forEach(c=>c.classList.remove('active'));
+        btn.classList.add('active');
+        document.getElementById(btn.dataset.tab).classList.add('active');
+      });
+    });
+  </script>
+
 </body>
 </html>
